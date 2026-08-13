@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jackulin Sports Shopping Marketplace - Register</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+
+            font-family: Arial, sans-serif;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: linear-gradient(
+                135deg,
+                #e3f2fd,
+                #bbdefb,
+                #e8eaf6
+            );
+        }
+
+        /* Main Container */
+
+        .register-container {
+            width: 850px;
+
+            display: flex;
+
+            background: white;
+
+            border-radius: 20px;
+
+            overflow: hidden;
+
+            box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+        }
+
+        /* Left Side */
+
+        .sports-section {
+            width: 40%;
+
+            padding: 45px 30px;
+
+            text-align: center;
+
+            color: white;
+
+            background: linear-gradient(
+                160deg,
+                #0d47a1,
+                #1976d2
+            );
+        }
+
+        .sports-icons {
+            font-size: 45px;
+
+            margin: 25px 0;
+        }
+
+        .sports-section h1 {
+            font-size: 29px;
+
+            line-height: 1.4;
+        }
+
+        .sports-section p {
+            margin-top: 20px;
+
+            font-size: 16px;
+
+            line-height: 1.6;
+        }
+
+        .quote {
+            margin-top: 30px;
+
+            font-weight: bold;
+
+            font-size: 16px;
+        }
+
+        /* Right Side */
+
+        .form-section {
+            width: 60%;
+
+            padding: 35px 45px;
+        }
+
+        .form-section h2 {
+            text-align: center;
+
+            color: #222;
+
+            font-size: 28px;
+
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            text-align: center;
+
+            color: #777;
+
+            margin-bottom: 22px;
+        }
+
+        /* Input */
+
+        .input-group {
+            margin-bottom: 13px;
+        }
+
+        label {
+            display: block;
+
+            font-weight: bold;
+
+            color: #333;
+
+            margin-bottom: 6px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+
+            padding: 11px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 7px;
+
+            font-size: 14px;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+
+            border-color: #1976d2;
+        }
+
+        textarea {
+            height: 55px;
+
+            resize: none;
+        }
+
+        /* Register Button */
+
+        .register-btn {
+            width: 100%;
+
+            padding: 13px;
+
+            margin-top: 5px;
+
+            border: none;
+
+            border-radius: 7px;
+
+            background: linear-gradient(
+                90deg,
+                #0d47a1,
+                #42a5f5
+            );
+
+            color: white;
+
+            font-size: 16px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+        }
+
+        .register-btn:hover {
+            opacity: 0.9;
+        }
+
+        /* Login */
+
+        .login-text {
+            text-align: center;
+
+            margin-top: 17px;
+
+            color: #555;
+        }
+
+        .login-text a {
+            color: #0d47a1;
+
+            font-weight: bold;
+
+            text-decoration: none;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= MAIN CONTAINER ================= -->
+
+    <div class="register-container">
+
+
+        <!-- ================= SPORTS SIDE ================= -->
+
+        <div class="sports-section">
+
+            <div class="sports-icons">
+                🏏 ⚽ 🏀 🏸
+            </div>
+
+            <h1>
+                Jackulin Sports<br>
+                Shopping Marketplace
+            </h1>
+
+            <p>
+                Create your account and discover
+                everything you need for your
+                favourite sports.
+            </p>
+
+            <div class="quote">
+                Play More • Shop Better • Stay Active
+            </div>
+
+        </div>
+
+
+
+        <!-- ================= FORM SIDE ================= -->
+
+        <div class="form-section">
+
+            <h2>
+                Create Your Account
+            </h2>
+
+            <p class="subtitle">
+                Join our sports shopping marketplace
+            </p>
+
+
+            <form action="login.html">
+
+
+                <!-- Full Name -->
+
+                <div class="input-group">
+
+                    <label>
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- Email -->
+
+                <div class="input-group">
+
+                    <label>
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- Phone -->
+
+                <div class="input-group">
+
+                    <label>
+                        Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        placeholder="Enter your phone number"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- Password -->
+
+                <div class="input-group">
+
+                    <label>
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        placeholder="Create a password"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- Confirm Password -->
+
+                <div class="input-group">
+
+                    <label>
+                        Confirm Password
+                    </label>
+
+                    <input
+                        type="password"
+                        placeholder="Confirm your password"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- Address -->
+
+                <div class="input-group">
+
+                    <label>
+                        Address
+                    </label>
+
+                    <textarea
+                        placeholder="Enter your address"
+                    ></textarea>
+
+                </div>
+
+
+
+                <!-- Register -->
+
+                <button
+                    type="submit"
+                    class="register-btn">
+
+                    Create Account
+
+                </button>
+
+
+            </form>
+
+
+            <!-- Login Link -->
+
+            <div class="login-text">
+
+                Already have an account?
+
+                <a href="login.html">
+                    Login
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+  </html>
